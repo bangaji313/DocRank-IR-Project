@@ -27,9 +27,11 @@ pip install sastrawi
 pip install PyPDF2
 pip install python-docx
 pip install rank-bm25
+```
 
 ## Cara Menjalankan
 1. **Clone Repository**
+   ```bash
    git clone https://github.com/bangaji313/DocRank-IR-Project.git
 
 
