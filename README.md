@@ -19,14 +19,19 @@
 - **Frontend**: HTML, CSS, dan JavaScript
 - **Metode Information Retrieval**: BM25
 
-## Cara Menggunakan
-1. Upload dokumen ke folder dataset aplikasi.
-2. Masukkan query pencarian di antarmuka pengguna.
-3. Aplikasi akan menampilkan dokumen yang paling relevan beserta skor relevansinya.
+## Instalasi Library yang Dibutuhkan
+Untuk menjalankan aplikasi ini, Anda perlu menginstal library berikut. Jalankan perintah berikut di terminal atau command prompt Anda:
+```bash
+pip install flask
+pip install sastrawi
+pip install PyPDF2
+pip install python-docx
+pip install rank-bm25
 
-## Tujuan Pengembangan
-- Meningkatkan efisiensi temu balik informasi berbasis teks.
-- Mendukung penelitian dan edukasi terkait pengobatan herbal di Indonesia.
+## Cara Menjalankan
+1. **Clone Repository**
+   git clone https://github.com/bangaji313/DocRank-IR-Project.git
+
 
 ## Rencana Pengembangan ke Depan
 - Dukungan untuk pencarian berbasis gambar atau suara.
